@@ -1618,6 +1618,9 @@ display: inline-block;
        font-size: 12px;
        margin-top: 5px;
    }
+    .contact-form h3{
+       font-size: 16px;
+    }
    .newsletter_form{
        margin-top: 22px;
    }
