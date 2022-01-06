@@ -24,7 +24,8 @@
      <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <title>1Stop Fashion | Blogs</title>
   </head>
-  <body>
+  <body onload="myPreloader()">
+	  <div class="myPreloader" id="preloader" style="background-image: url('../images/96x96.gif');"></div>
     <div class="super_container">
 		<!-- Header -->
 		<header class="header trans_300">
@@ -201,20 +202,6 @@
   </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -225,6 +212,12 @@
 <script src="../plugins/Isotope/isotope.pkgd.min.js"></script>
 <!-- Javascript File -->
 <script src="../js/custom.js"></script>
+	  <script>
+  var preloader = document.querySelector('#preloader')
+  function myPreloader(){
+    preloader.style.display = "none";
+  }
+</script>
   </body>
 </html>
  
