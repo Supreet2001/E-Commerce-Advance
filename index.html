@@ -28,7 +28,9 @@
 
 </head>
 
-<body>
+<body onload="myPreloader()">
+	<div class="myPreloader" id="preloader" style="background-image: url('images/96x96.gif');">
+	</div>
 
 	<div class="super_container">
 
@@ -949,7 +951,12 @@
 		})
 	 
 	 </script>
-	 
+<script>
+		 var preloader = document.querySelector('#preloader')
+		 function myPreloader(){
+			 preloader.style.display = "none";
+		 }
+	 </script>	 
 	 
 </body>
 
