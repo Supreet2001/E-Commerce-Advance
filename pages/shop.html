@@ -24,7 +24,8 @@
 
 </head>
 
-<body>
+<body onload="myPreloader()">
+	<div class="myPreloader" id="preloader" style="background-image: url('../images/96x96.gif');"></div>
 	<div class="super_container">
 		<!-- Header -->
 		<header class="header trans_300">
@@ -427,6 +428,12 @@
 	<script src="../plugins/Isotope/isotope.pkgd.min.js"></script>
 	<!-- Javascript File -->
 	<script src="../js/custom.js"></script>
+	<script>
+		var preloader = document.querySelector('#preloader')
+		function myPreloader(){
+			preloader.style.display = "none";
+		}
+	</script>
 </body>
 
 </html>
