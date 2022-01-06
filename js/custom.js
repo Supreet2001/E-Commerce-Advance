@@ -262,7 +262,7 @@ jQuery(document).ready(function ($) {
         var bl1 = document.getElementById('bl1');
         var bl2 = document.getElementById('bl2');
         var bl3 = document.getElementById('bl3');
-        var aos = [sc1, b1, b2, b3, bl1, bl2, bl3];s
+        var aos = [sc1, b1, b2, b3, bl1, bl2, bl3];
 
 
         
